@@ -7,6 +7,6 @@
 - 🗄️ Databases
 
 ## 🐍 My GitHub Stats
-![Snake animation](https://github.com/julianaromaos/julianaromaos/blob/output/github-contribution-grid-snake.svg))
+![Snake animation](https://github.com/julianaromaos/julianaromaos/blob/output/github-contribution-grid-snake.svg)
 
 
