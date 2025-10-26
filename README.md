@@ -1,35 +1,18 @@
-name: Generate snake animation
+# 👋 Hello, I'm Juliana!
 
-on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+## 🛠️ Technologies & Tools
+- 💻 Programming languages
+- 🚀 Web development  
+- 📱 Mobile development
+- 🗄️ Databases
 
-  workflow_dispatch:
+## 🐍 My GitHub Stats
+![Snake animation](https://github.com/julianaromaos/julianaromaos/blob/output/github-contribution-grid-snake.svg))
 
-  push:
-    branches:
-    - master
+## 📊 GitHub Analytics
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=julianaromaos&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=julianaromaos&layout=compact&theme=radical)
 
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-
-    steps:
-      - name: generate snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg?palette=github-dark
-
-
-      - name: push snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+## 📫 Connect with me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-linkedin)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu-email@gmail.com)
